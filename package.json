@@ -1,0 +1,25 @@
+{
+  "name": "motofuria-backend",
+  "version": "1.0.0",
+  "description": "Backend para asignar fondos digitales y enviar correos",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "motofuria",
+    "express",
+    "mercadopago",
+    "google-sheets",
+    "nodemailer"
+  ],
+  "author": "TuNombre",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "googleapis": "^157.0.0",
+    "nodemailer": "^7.0.5"
+  }
+}

@@ -1,0 +1,14 @@
+# Archivos sensibles
+.env
+google-credenciales.json
+
+# Dependencias (se regeneran con npm install)
+node_modules/
+
+# Archivos de log y temporales
+*.log
+npm-debug.log*
+
+# Archivos del sistema (Windows/macOS)
+.DS_Store
+Thumbs.db
